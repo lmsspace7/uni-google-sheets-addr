@@ -1,5 +1,4 @@
 using GoogleSheet.IO;
-using LMCore;
 using System.Collections.Generic;
 using UGS;
 using UnityEngine;
@@ -77,11 +76,13 @@ public class UGSAddressableReader : IFileReader
 
     public string RuntimeAssetLoad(string fileName)
     {
-        var textasset = ResourceManager.Inst.GetOriginData(fileName);
-        if (textasset == null)
-            return null;
+        //var textasset = ResourceManager.Inst.GetOriginData(fileName);
+        //if (textasset == null)
+        //    return null;
 
-        return textasset.text;
+        //return textasset.text;
+
+        return null;
     }
 
 
