@@ -10,7 +10,7 @@ namespace UGS.Editor
     public class GoogleDriveExplorerGUI : EditorWindow
     {
         static GoogleDriveExplorerGUI instance;
-        [MenuItem("HamsterLib/UGS/Manager", priority = -9999)]
+        [MenuItem("에디터툴/UGS/Manager", priority = -9999)]
         public static void Init()
         {
             var isUsedSecurityMode = DefineSymbolManager.IsUsed("UGS_SECURITY_MODE");

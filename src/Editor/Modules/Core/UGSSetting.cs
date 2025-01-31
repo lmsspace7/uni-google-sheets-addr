@@ -1,4 +1,4 @@
-﻿#if UNITY_EDITOR || UNITY_BUILD 
+﻿#if UNITY_EDITOR || UNITY_BUILD
 using UnityEditor;
 using UnityEngine;
 
@@ -20,7 +20,7 @@ namespace UGS.Editor
         }
 
 
-        [MenuItem("HamsterLib/UGS/Setting", priority = 10000)]
+        [MenuItem("에디터툴/UGS/Setting", priority = 10000)]
         public static void CreateInstance()
         {
             // Get existing open window or if none, make a new one:
