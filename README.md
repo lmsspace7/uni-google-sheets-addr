@@ -5,6 +5,8 @@ Intergrate Google Sheets Your Unity Project.
  <img src="https://img.shields.io/badge/Unity-2018.3%2B-green"/>
  <img src="https://img.shields.io/badge/Unity-2023.1%2B-green"/>
 </p> 
+
+데이터를 로드하기전에 SetDataLoader() 함수로 데이터 로더를 설정
  
 
 ## Install via git URL 
