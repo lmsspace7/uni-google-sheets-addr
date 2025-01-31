@@ -108,7 +108,10 @@ namespace @namespace
         static bool isLoaded = false;
         static string spreadSheetID = ""@spreadSheetID""; // it is file id
         static string sheetID = ""@sheetID""; // it is sheet id
-        static UGSAddressableReader reader = new UGSAddressableReader();
+
+         static UGSAddressableReader reader = new UGSAddressableReader();
+        public static void SetDataLoader(IDataLoader dataLoader) => reader.DataLoader = dataLoader;
+
         //static UnityFileReader reader = new UnityFileReader();
 
 /* Your Loaded Data Storage. */
