@@ -76,7 +76,8 @@ public class UGSAddressableReader : IFileReader
 
     public string RuntimeAssetLoad(string fileName)
     {
-        //var textasset = ResourceManager.Inst.GetOriginData(fileName);
+        Debug.LogError("리소스 매니저 주석을 해제해주세요.");
+        //var textasset = LMCore.ResourceManager.Inst.GetOriginData(fileName);
         //if (textasset == null)
         //    return null;
 
