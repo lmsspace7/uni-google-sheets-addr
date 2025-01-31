@@ -26,7 +26,8 @@ namespace @namespace
         static bool isLoaded = false;
         static string spreadSheetID = ""@spreadSheetID""; // it is file id
         static string sheetID = ""@sheetID""; // it is sheet id
-        static FileReader reader = new FileReader();
+        static UGSAddressableReader reader = new UGSAddressableReader();
+        //static UnityFileReader reader = new UnityFileReader();
 
 /* Your Loaded Data Storage. */
         public static Dictionary<@keyType, @class> @classMap = new Dictionary<@keyType, @class>(); 

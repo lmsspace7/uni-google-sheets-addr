@@ -108,7 +108,8 @@ namespace @namespace
         static bool isLoaded = false;
         static string spreadSheetID = ""@spreadSheetID""; // it is file id
         static string sheetID = ""@sheetID""; // it is sheet id
-        static UnityFileReader reader = new UnityFileReader();
+        static UGSAddressableReader reader = new UGSAddressableReader();
+        //static UnityFileReader reader = new UnityFileReader();
 
 /* Your Loaded Data Storage. */
     
@@ -381,7 +382,7 @@ else
         public static void LoadFromGoogle(System.Action<List<@class>, Dictionary<@keyType, @class>> onLoaded, bool updateCurrentData = false)
         {{      
                 IHttpProtcol webInstance = null;
-    #if UNITY_EDITOR
+#if UNITY_EDITOR
                 if (Application.isPlaying == false)
                 {{
                     webInstance = UnityEditorWebRequest.Instance as IHttpProtcol;
@@ -390,10 +391,10 @@ else
                 {{
                     webInstance = UnityPlayerWebRequest.Instance as IHttpProtcol;
                 }}
-    #endif
-    #if !UNITY_EDITOR
+#endif
+#if !UNITY_EDITOR
                      webInstance = UnityPlayerWebRequest.Instance as IHttpProtcol;
-    #endif
+#endif
           
  
                 var mdl = new ReadSpreadSheetReqModel(spreadSheetID);
