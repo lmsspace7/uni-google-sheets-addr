@@ -27,7 +27,7 @@ namespace @namespace
         static string spreadSheetID = ""@spreadSheetID""; // it is file id
         static string sheetID = ""@sheetID""; // it is sheet id
 
-         static UGSAddressableReader reader = new UGSAddressableReader();
+         static UGSWrapperReader reader = new UGSWrapperReader();
         public static void SetDataLoader(IDataLoader dataLoader) => reader.DataLoader = dataLoader;
 
         //static UnityFileReader reader = new UnityFileReader();

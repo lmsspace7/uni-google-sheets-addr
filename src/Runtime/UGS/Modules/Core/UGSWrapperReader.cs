@@ -11,7 +11,7 @@ namespace UGS.IO
         public TextAsset GetOriginData(string fileName);
     }
 
-    public class UGSAddressableReader : IFileReader
+    public class UGSWrapperReader : IFileReader
     {
         private bool _ = false;
 
