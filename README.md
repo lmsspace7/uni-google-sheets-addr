@@ -12,6 +12,4 @@ Intergrate Google Sheets Your Unity Project.
 ## Install via git URL 
 ![image](https://user-images.githubusercontent.com/49047211/215680248-26e2093a-d7e1-462f-9bb4-a81a5699d4f0.png)  
  `https://github.com/lmsspace7/uni-google-sheets-addr.git?path=src/`
- 
- `https://github.com/lmsspace7/uni-google-sheets-addr.git?path=src/#lmsspace` 
 
